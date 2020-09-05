@@ -1,0 +1,294 @@
+
+:root {
+    --custom: #ffc600;
+}
+
+.table-custom,
+.table-custom > td,
+.table-custom > th {
+    background-color: #ffffff;
+}
+
+.table-hover .table-custom:hover {
+    background-color: #ffdd65
+}
+
+.table-hover .table-custom:hover > td,
+.table-hover .table-custom:hover > th {
+    background-color: #ffdd65
+}
+
+.btn-custom {
+    background-color: #ffc600;
+    border-color: #ffc600;
+    color: #fff
+}
+
+.btn-custom:hover {
+    background-color: #dbb222;
+    border-color: #dbb222;
+    color: #fff
+}
+
+.btn-custom.focus,
+.btn-custom:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+    box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+}
+
+.btn-custom.disabled,
+.btn-custom:disabled {
+    background-color: #ffc600;
+    border-color: #ffc600;
+    color: #fff
+}
+
+.btn-custom:not(:disabled):not(.disabled).active,
+.btn-custom:not(:disabled):not(.disabled):active,
+.show > .btn-custom.dropdown-toggle {
+    background-color: #dbb222;
+    border-color: #dbb222;
+    color: #fff
+}
+
+.btn-custom:not(:disabled):not(.disabled).active:focus,
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.show > .btn-custom.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+    box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+}
+
+.btn-outline-custom {
+    border-color: #ffc600;
+    color: #ffc600
+}
+
+.btn-outline-custom:hover {
+    background-color: #ffc600;
+    border-color: #ffc600;
+    color: #fff
+}
+
+.btn-outline-custom.focus,
+.btn-outline-custom:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+    box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+}
+
+.btn-outline-custom.disabled,
+.btn-outline-custom:disabled {
+    background-color: transparent;
+    color: #ffc600
+}
+
+.btn-outline-custom:not(:disabled):not(.disabled).active,
+.btn-outline-custom:not(:disabled):not(.disabled):active,
+.show > .btn-outline-custom.dropdown-toggle {
+    background-color: #ffc600;
+    border-color: #ffc600;
+    color: #fff
+}
+
+.btn-outline-custom:not(:disabled):not(.disabled).active:focus,
+.btn-outline-custom:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-custom.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+    box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+}
+
+.badge-custom {
+    background-color: #ffc600;
+    color: #fff
+}
+
+a.badge-custom:focus,
+a.badge-custom:hover {
+    background-color: #dbb222;
+    color: #fff
+}
+
+a.badge-custom.focus,
+a.badge-custom:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+    box-shadow: 0 0 0 .2rem rgba(255, 198, 0, .5);
+    ;
+    outline: 0
+}
+
+.alert-custom {
+    background-color: #ffdd65;
+    border-color: #ffdd65;
+    color: #dbb222;
+}
+
+.alert-custom hr {
+    border-top-color: #ffdd65
+}
+
+.alert-custom .alert-link {
+    color: #001f14
+}
+
+.list-group-item-custom {
+    background-color: #ffdd65;
+    color: #dbb222
+}
+
+.list-group-item-custom.list-group-item-action:focus,
+.list-group-item-custom.list-group-item-action:hover {
+    background-color: #ffdd65;
+    color: #dbb222
+}
+
+.list-group-item-custom.list-group-item-action.active {
+    background-color: #dbb222;
+    border-color: #dbb222;
+    color: #fff
+}
+
+.bg-custom {
+    background-color: #ffc600 !important
+}
+
+a.bg-custom:focus,
+a.bg-custom:hover,
+button.bg-custom:focus,
+button.bg-custom:hover {
+    background-color: #dbb222 !important
+}
+
+.border-custom {
+    border-color: #ffc600 !important
+}
+
+.text-custom {
+    color: #ffc600 !important
+}
+
+a.text-custom:focus,
+a.text-custom:hover {
+    color: #dbb222 !important
+}
+
+::-moz-selection {
+    background-color: #ffc600;
+    color: #fff
+}
+
+::selection {
+    background-color: #ffc600;
+    color: #fff
+}
+
+a:not(.btn) {
+    color: #ffc600
+}
+
+a:not(.btn):focus,
+a:not(.btn):hover {
+    color: #dbb222
+}
+
+.color-scheme {
+    color: #ffc600
+}
+
+.background-scheme {
+    background-color: #ffc600
+}
+
+.btn.button-scheme {
+    background-color: #ffc600 !important;
+    border: 1px solid #ffc600 !important
+}
+
+.btn.button-scheme:focus {
+    background-color: #dbb222 !important;
+    border-color: #dbb222 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.btn.button-outline {
+    background-color: transparent !important;
+    border: 1px solid #ffc600 !important;
+    color: #222 !important
+}
+
+.btn.button-outline:focus {
+    background-color: rgba(34, 34, 34, .05) !important;
+    border-color: #dbb222 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.lightbox-wrapper .lightbox-content .section-heading.page-heading > .animated-bar {
+    background-color: #ffc600
+}
+
+#about .info-section .info-content .content-subtitle {
+    color: #ffc600
+}
+
+#about .info-section .info-content .content-follow li a:focus,
+#about .info-section .info-content .content-follow li a:hover {
+    color: #ffc600
+}
+
+#about .services-section .single-service:hover {
+    border-bottom-color: #ffc600
+}
+
+#about .services-section .single-service .service-icon {
+    color: #ffc600
+}
+
+#about .testimonials-section .single-review .review-icon {
+    color: #ffc600
+}
+
+#about .pricing-section .single-plan .plan-icon {
+    color: #ffc600
+}
+
+#resume .resume-section .resume-item {
+    border-left-color: #ffc600
+}
+
+#resume .resume-section .resume-item .item-arrow:before {
+    background-color: #ffc600
+}
+
+#resume .resume-section .resume-item .item-arrow:after {
+    border-left-color: #ffc600
+}
+
+#resume .skills-section .single-skill .skill-progress .progress-bar {
+    background-color: #ffc600
+}
+
+#portfolio .portfolio-section .filter-control > li.tab-active,
+#portfolio .portfolio-section .filter-control > li:hover {
+    color: #ffc600
+}
+
+#portfolio .portfolio-section .filter-control > li.tab-active:before,
+#portfolio .portfolio-section .filter-control > li:hover:before {
+    background-color: #ffc600
+}
+
+#portfolio .portfolio-section .portfolio-grid .portfolio-wrapper .item-content .content-more {
+    color: #ffc600
+}
+
+#blog .blog-section .single-post .post-img .content-date {
+    background-color: #ffc600
+}
+
+#contact .contact-section .contact-form .form-group .form-control:focus {
+    border-bottom: 1px solid #dbb222
+}
+
+#contact .contact-section .contact-info .list-info .info-icon i {
+    color: #ffc600
+}
